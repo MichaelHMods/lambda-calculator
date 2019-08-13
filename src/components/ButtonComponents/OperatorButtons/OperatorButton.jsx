@@ -1,4 +1,5 @@
 import React from "react";
+import Operators from "../../../data.jsx"
 
 const OperatorButton = () => {
   return (

@@ -1,12 +1,14 @@
 import React from "react";
+import Numbers from "../../../data.jsx"
 
 //import any components needed
 
 //Import your array data to from the provided data file
+const [numberState, setNumberState] = useState(numbers);
 
-const Specials = () => {
+
+const Numbers = () => {
   // STEP 2 - add the imported data to state
-
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
