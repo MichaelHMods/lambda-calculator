@@ -1,10 +1,12 @@
 import React from "react";
-import Operators from "../../../data.jsx"
+//import {operators} from "../../../data.jsx";
 
-const OperatorButton = () => {
+const OperatorButton = (props) => {
+console.log(props);
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+   <button className="op-button">{props.operator.char} </button>
   );
 };
+ 
+
+export default OperatorButton;
